@@ -23,8 +23,9 @@ export default function AppRotas () {
                 if (route.name === 'Melhores Produtores'){
                     Icon = Coracao;
                 }
-                return <Icon color = {color}/>
-            }
+                return <Icon color = {color} width = '20' height = '20'/>
+            },
+            tabBarLabelStyle:  {fontSize: 16}
 
         })}>
             <Tab.Screen name='Home' component={ProdutorRotas}/>
